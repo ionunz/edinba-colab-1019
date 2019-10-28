@@ -1,7 +1,9 @@
+body{
+    margin: 0;
+}
 .orangeblock{
     background-color: rgb(255, 183, 0);
     border-bottom-right-radius: 30px;
-    margin: 20px;
 }
 h1{
     font-family: 'DM Serif Display', serif;
@@ -9,17 +11,24 @@ h1{
     margin-block-start: 0px;
     margin-block-end: 0px;
 }
-.continentes ul{
+.continents{
     font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    color: rgb(150, 150 , 150);
+    margin-top: 10px;
+    margin-left: 0px;
 }
 ul{
     list-style-type:none;
     display: flex;
-    padding: 0px;
     margin: 20px;
+}
+ul li{
+    margin: 10px;
 }
 .birdimage{
     background-color: rgb(240, 240 , 240);
+    margin: 20px;
     padding: 20px;
     display: flex;
     border: 1px;
@@ -35,7 +44,7 @@ h3{
 }
 h4{
     font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
+    font-size: 10px;
     margin-block-start: 0px;
     margin-block-end: 0px;
 }
