@@ -1,41 +1,47 @@
-*{ 
-    font-family: 'Anton', sans-serif;
-    font-size: 80px;
+.orangeblock{
+    background-color: rgb(255, 183, 0);
+    border-bottom-right-radius: 30px;
+    margin: 20px;
 }
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+h1{
+    font-family: 'DM Serif Display', serif;
+    font-size: 40px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
 }
-.hidden{
-    display: none;
-}
-.showroom{
-    min-width: 500px;
-    min-height: 500px;
-    background: yellow;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.continentes ul{
+    font-family: 'Open Sans', sans-serif;
 }
 ul{
-    list-style: none;
+    list-style-type:none;
     display: flex;
-    border: 0px;
-    
-    
-    
+    padding: 0px;
+    margin: 20px;
 }
-ul li img{
-    
-    width: 112px;
-    padding: 2px;
-    padding-left: none;
-    padding-right: none;
-
-
+.birdimage{
+    background-color: rgb(240, 240 , 240);
+    padding: 20px;
+    display: flex;
+    border: 1px;
+    border-radius: 10px;
 }
-.div{
-    border: none;
+.birdimage img{
+    max-height: 300px;
+}
+h3{
+    font-family: 'DM Serif Display', serif;
+    margin-block-start: 0px;
+    margin-block-end: 20px;
+}
+h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+.showroom{
+    margin: 20px;
+}
+.gallery{
+    margin: 0px;
 }
