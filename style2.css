@@ -1,0 +1,60 @@
+@media (min-width: 360px){
+    *{
+        font-size: 50px;
+        font-family: 'DM Serif Display', serif;
+        margin: auto;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+     .titulos p{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 24px;
+        font-weight: bolder;
+      
+    }
+    .titulos h2{
+        font-size: 21px;
+    }
+  
+  main img{
+      display: flex;
+      justify-content: center;
+      margin: 0px;
+  }
+  ul{
+      list-style-type: none;
+      display: flex;
+  }
+  ul li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 31px;
+
+  }
+
+  ol {
+   
+    list-style-type:none;
+    display: flex;
+    margin: 0px;
+  }
+  ol li {
+    font-family: 'DM Serif Display', serif;
+    display: flex;
+    float:right;
+    font-size: 21px;
+
+
+  }
+  .pause{
+    background: yellow;
+    border-radius: 50px;
+    width:61px;
+    margin:40px;
+    display: flex;
+    justify-content: left;
+  }
+}
