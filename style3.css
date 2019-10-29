@@ -1,13 +1,27 @@
+@media (min-width: 360px){
+    .birdimage{
+            width: 360px;
+        }
+    }
 body{
     margin: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .orangeblock{
     background-color: rgb(255, 183, 0);
     border-bottom-right-radius: 30px;
 }
+.orangeblock h1{
+    margin: 15px;
+}
 h1{
     font-family: 'DM Serif Display', serif;
-    font-size: 60px;
+    font-size: 30px;
     margin-block-start: 0px;
     margin-block-end: 0px;
 }
@@ -17,6 +31,9 @@ h1{
     color: rgb(150, 150 , 150);
     margin-top: 10px;
     margin-left: 0px;
+}
+.searchtext{
+    margin: 15px;
 }
 ul{
     list-style-type:none;
